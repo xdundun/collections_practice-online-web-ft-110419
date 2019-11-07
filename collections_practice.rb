@@ -31,6 +31,6 @@ def kesha_maker(array)
   i=0
   array.each{ |elem|
     elem.slice(3) = $
-    puts "#{elem}
+    puts "#{elem}""
   }
 end
