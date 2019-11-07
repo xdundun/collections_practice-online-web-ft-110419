@@ -30,7 +30,7 @@ def kesha_maker(array)
   kesha = []
   i=0
   array.each{ |elem|
-      elem[2] = $
+      elem[2] = '$'
       puts elem
   }
 end
