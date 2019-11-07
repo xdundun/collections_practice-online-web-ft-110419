@@ -29,14 +29,9 @@ end
 def kesha_maker(array)
   kesha = []
   i=0
-  array.each{ |elem|
-      elem[2] = '$'
-  }
+  array.each { |elem| elem[2] = '$'}
 end
 
 def find_a(array)
-array.select {|x|
-  x.start_with?('a')
-
-}
+array.select { |x| x.start_with?('a') }
 end
