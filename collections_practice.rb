@@ -31,6 +31,5 @@ def kesha_maker(array)
   i=0
   array.each{ |elem|
       elem[2] = '$'
-
   }
 end
