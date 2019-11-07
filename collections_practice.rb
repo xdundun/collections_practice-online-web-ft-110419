@@ -19,4 +19,5 @@ def swap_elements(array)
   swap2 = array[2]
   array[1] = swap2
   array[2] = swap1
+  return array
 end
