@@ -33,3 +33,10 @@ def kesha_maker(array)
       elem[2] = '$'
   }
 end
+
+def find_a(array)
+array.select {|x|
+  x.include?('a')
+
+}
+end
